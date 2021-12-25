@@ -6,7 +6,7 @@
 	<title>Save</title>
 </head>
 <body>
-
+<!-- this is connecting to db -->
 <?php 
 
 $fname=$_POST['fname'];
