@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="home1.css">
+    <link rel="stylesheet" href="Normalise.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+
+    <header id="nav_pages">
+        
+        <img  src="TFOE.png" alt="Project_logo" id="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="Register.html">Register</a>
+            <a href="Locate.html">Locate</a>
+            <a href="Recharge.html">Recharge</a>
+            <a href="login.html"><button id="login_btn">Login</button></a>
+
+        </nav>
+    </header>
+    <section id="main_sec" >
+     <section  id="register_form">
+        
+        
+        <h1>REGISTRATION FORM</h1>
+     <form action="send.php" name="details" method="post">
+
+    <table cellpadding="10" cellspacing="10" id ="form">
+        <tr>
+            <td> First Name &nbsp; &nbsp;</td>
+            <td><input type="text" name="fname" maxlength="50"></td>
+        </tr>
+        <tr>
+            <td>Last Name  &nbsp; &nbsp;</td>
+            <td><input type="text" name="lname" maxlength="50"></td>
+        </tr>
+      
+        <tr>
+            <td>Date of Birth </td>
+        
+            <td> <input type="date" name="" id=""></td>
+        </tr>
+
+        <tr>
+            <td>Aadhar No: </td>
+
+            <td><input type="text" name="aadhar" maxlength="12"></td>
+        </tr>
+       <tr>
+           <td>
+              Address
+           </td>
+           <td>
+               <textarea name="address" cols="30" rows="10" placeholder="Enter your adress here "></textarea>
+           </td>
+       </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+               <input type='email' name=email maxlength="30">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Mobile Number: 
+            </td>
+            <td>
+                <input type='number' maxlength="10" name='number'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Alternative Number
+            </td>
+
+            <td>
+                <input type="number" maxlength="10" name=alnumber>
+            </td>
+        </tr>
+        
+<tr>
+   <table>
+       <tr>
+           <td> <input type='checkbox' name=checkbox > <h6>I hereby declare that all the information furnished above is true to the best of my belief.</td>
+       </tr>
+   </table>
+    </tr>
+    </h6>
+        <tr>
+            <!-- <td>
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </td> -->
+            <button id ="button_submit" class="form_button">Submit</button>
+            <button id ="button_reset" class="form_button">Reset</button>
+        </tr>
+    </table>
+</form>
+</section>
+<img src="https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="register_bg" id="bg_reg">
+
+<!-- <img src="https://images.unsplash.com/photo-1554224155-1696413565d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="register_bg" id="bg_reg"> -->
+
+ 
+
+    
+</section>
+        
+    </body>
+
+ </html>
