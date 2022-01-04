@@ -1,0 +1,164 @@
+header{
+    width: 100%;
+    /* height: 80px; */
+    background-color:#30a9b9;
+}
+#logo{
+    margin-top: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    /* top:15px; */
+    width: 150px;
+    height: 80px;
+    padding-top: 10px;
+    
+}
+
+nav{
+    
+    display: flex;
+    margin-left: 400px;
+    /* margin-top: 20px; */
+    font-size: 2em;
+    flex-wrap: wrap;
+
+}
+
+header a{
+    color: rgb(26, 18, 97);
+    font-weight: 2em;
+    margin-right: 60px;
+    padding: 30px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    outline: none;
+
+}
+
+header a:hover{
+    color: rgb(202, 202, 91);
+}
+
+#logout_btn{
+    font-size: 0.8em;
+    padding: 5px 16px;
+    border: 2px solid rgba(228, 225, 86, 0.774);
+    border-radius: 25px;
+    margin-left: 300px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    cursor: pointer;
+}
+#upper_body{
+    /* display: inline; */
+    margin-bottom: 10%;
+}
+
+
+#data{
+    background-color: rgb(247, 239, 222) ;
+    margin-left: 5%;
+    margin-right: 50%;
+    border-radius: 25px;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+ table{
+     margin-top: 50px;
+     width: 30%;
+     font-size: 1.25em;
+     padding: 25px;
+     margin-left: 10%;
+     
+ }
+
+ th{
+     padding: 25px;
+     text-align: left;
+     padding-top: 0px;
+ }
+td{
+    padding: 25px;
+    padding-bottom: 0px;
+
+}
+
+.First_att{
+    padding-right: 50px;
+}
+
+.second_att{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+#heading{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#tb , #tbimp{
+    padding-left: 30px;
+}
+
+#vd , #vdimp{
+    padding-left: 15px;
+}
+#profile{
+    margin: 20%;
+    margin-top: -27%;
+    margin-left: 80%;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+
+
+}
+
+#profile p{
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 35%;
+    padding-right: 12%;
+}
+
+#avatar_logo{
+    height: 80px;
+    padding-left: 36%;
+    margin-top: 20%;
+    margin-left: 2%;
+ }
+
+
+#topup{
+    background-color: rgb(241, 150, 219) ;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 50%;
+    border-radius: 25px;
+    margin-top: 15%
+
+    
+
+}
+#topup #topupbtn{
+    padding:2%;
+    margin: 2%;
+    margin-left: 10%;
+    border-radius: 25px;
+    border-style: none;
+    cursor: pointer;
+
+}
+#topupbtn:active{
+    background-color: blueviolet;
+    color: white;
+    transition: 10;
+}
