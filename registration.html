@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+</head>
+<body>
+
+
+        <h1>REGISTRATION FORM</h1>
+     <form action="send.php" name="details" method="post">
+
+    <table cellpadding="10" cellspacing="10">
+        <tr>
+            <td> First Name &nbsp; &nbsp;</td>
+            <td><input type="text" name="fname" maxlength="50"></td>
+        </tr>
+        <tr>
+            <td>Last Name  &nbsp; &nbsp;</td>
+            <td><input type="text" name="lname" maxlength="50"></td>
+        </tr>
+      
+        <tr>
+            <td>Date of Birth </td>
+        
+            <td> <input type="date" name="" id=""></td>
+        </tr>
+
+        <tr>
+            <td>Aadhar No: </td>
+
+            <td><input type="text" name="aadhar" maxlength="12"></td>
+        </tr>
+       <tr>
+           <td>
+              Address
+           </td>
+           <td>
+               <textarea name="address" cols="30" rows="10"></textarea>
+           </td>
+       </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+               <input type='email' name=email maxlength="30">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Mobile Number: 
+            </td>
+            <td>
+                <input type='number' maxlength="10" name='number'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Alternative Number
+            </td>
+
+            <td>
+                <input type="number" maxlength="10" name=alnumber>
+            </td>
+        </tr>
+        
+<tr>
+   <table>
+       <tr>
+           <td> <input type='checkbox' name=checkbox > <h6>I hereby declare that all the information furnished above is true to the best of my belief.</td>
+       </tr>
+   </table>
+    </tr>
+    </h6>
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </td>
+            
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
