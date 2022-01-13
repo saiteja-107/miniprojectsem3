@@ -1,0 +1,76 @@
+
+body{
+    /* background-color: rgb(247, 162, 93); */
+   background-image: url("https://images.unsplash.com/photo-1602918386084-58983c3bafac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGVsZWN0cmljJTIwY2FyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+;
+
+
+
+}
+
+#main_sec{
+        margin-top: 10px;} 
+#bg_reg{
+    width:100%;
+    height: 1000px;    
+    background-size: cover;
+}
+#register_form
+{
+position: absolute;
+color:#5f155f;
+/* font-family: 'Roboto Condensed', sans-serif; */
+font-family: 'Luxurious Roman', cursive;
+font-size: 1.25em;
+border: 5px solid black;
+padding: 15px;
+margin-left: 450px;
+margin-top: 150px;
+border-radius: 25px;
+height:127%;
+background-color: rgb(201, 160, 240, 0.35);
+
+/* background-image: url("https://images.unsplash.com/photo-1554224155-1696413565d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"); */
+/* background-size: cover; */
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#register_form input{
+    border: none;
+
+    border-bottom: 2px solid black;
+    outline: none;
+}
+ 
+
+#button_submit{
+margin-right: 50px;
+padding: 10px 20px;
+}
+#button_reset{
+    padding: 10px 20px;
+    
+}
+
+.form_button{
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.form_button:hover{
+    background-color: wheat;
+}
+
+#form{
+    height: 0.5     em;
+} 
+
+#register_form input span{
+    color: black;
+}
