@@ -1,0 +1,64 @@
+body{
+    padding: 0%;
+
+}
+header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    /* height: 80px; */
+    background-color:#172035;
+    z-index: 100;
+}
+
+
+#logo{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+   
+    width: 200px;
+    height: 80px;
+    padding-top: 10px;
+    
+}
+/* .navpages a:link:focus , a:visited:focus {
+    -moz-outline: none;
+ } */
+nav{
+    display: flex;
+    margin-left: 400px;
+    /* margin-top: 20px; */
+    font-size: 2em;
+    flex-wrap: wrap;
+
+}
+
+header nav  a{
+    color: white;
+    font-weight: 2em;
+    margin-right: 20px;
+    padding: 30px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    
+}
+
+nav a:hover{
+   color:rgb(89, 197, 201)   ;
+    padding:30px ;
+}
+
+#login_btn{
+    font-size: 0.8em;
+    padding: 5px 16px;
+    border: 2px solid rgba(228, 225, 86, 0.774);
+    border-radius: 25px;
+    margin-left: 80px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    cursor: pointer;
+}
+#maps {
+    height: 80%;
+}
