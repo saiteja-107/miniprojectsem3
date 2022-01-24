@@ -1,0 +1,191 @@
+header{
+    width: 100%;
+    /* height: 80px; */
+    background-color:#30a9b9;
+    margin-top: 0%;
+    height: 80px;
+}
+#logo{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    /* top:15px; */
+    width: 150px;
+    height: 60px;
+    padding-top: 10px;
+    
+}
+
+nav{
+    
+    display: flex;
+    margin-left: 400px;
+    /* margin-top: 20px; */
+    font-size: 2em;
+    flex-wrap: wrap;
+
+}
+
+header a{
+    color: rgb(26, 18, 97);
+    font-weight: 2em;
+    margin-right: 60px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    outline: none;
+
+}
+
+header a:hover{
+    color: rgb(202, 202, 91);
+}
+
+#logout_btn{
+    font-size: 0.8em;
+    padding: 5px 16px;
+    border: 2px solid rgba(228, 225, 86, 0.774);
+    border-radius: 25px;
+    margin-left: 300px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    cursor: pointer;
+}
+#upper_body{
+    /* display: inline; */
+    margin-bottom: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#heading{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+#data{
+   
+    background-color: rgb(255, 243, 218) ;
+    margin-left: 5%;
+    margin-right: 50%;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+table{
+    table-layout:fixed;
+}
+table td {
+    width:40%;
+}
+
+
+
+.styled-table {
+  
+   
+    margin-left: 5%;
+    margin-top: 5%;
+
+    font-size: 0.9em;
+    font-family: sans-serif;
+     width: 100%;
+    
+ }
+
+ .styled-table thead tr {
+    color: #000000;
+     text-align: left;
+ } 
+
+ .styled-table th{
+    padding: 10px 2%;
+ }  
+ .styled-table td {
+   
+
+     padding: 5% 10px  ;
+     text-align: left;
+     margin: 2%;
+ }
+
+#profile{
+    /* margin: 20%; */
+    margin-top: -20%;
+    margin-left: 80%;
+    margin-right: 2%;
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+
+
+}
+
+#profile p{
+    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-left: 35%;
+    padding-right: 12%;
+}
+
+#avatar_logo{
+    height: 80px;
+    padding-left: 36%;
+    margin-top: 20%;
+    margin-left: 2%;
+ }
+
+
+ #data2 thead th {
+    border: 1px solid black;
+    padding: 1% 2%;
+    background-color: red;
+ }
+ #data2 tbody td {
+     border: 1px solid black;
+     padding: 1% 2%;
+  }
+ 
+  #data2
+ { 
+
+     margin-left: 5.5%;
+    margin-top: 2%;
+ }
+ #data2  tbody tr:nth-child(odd){
+     background-color: rgb(196, 196, 196);
+ }
+
+ #data2 tbody tr:last-child{
+     border-bottom: 2px solid black;
+ }  
+  
+
+
+
+#space
+{
+    background-color: rgb(218, 128, 226);
+    width: 20%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+    margin-bottom: 2%;
+}
+
+#Submit{
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+
+#Submit:hover{
+    background-color: orange;
+    border: 3px solid black;
+}
+
